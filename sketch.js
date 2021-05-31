@@ -77,7 +77,7 @@ function draw() {
       if(swordGroup.isTouching(boy)) {
      gameState=END;
         boy.addAnimation("SahilRunning",endImg);
-        endImg.scale=1;
+        endImg.scale=3;
         boy.X=200;
         boy.Y=300;
         cashG.destroyEach();
